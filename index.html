@@ -1,96 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ven a visitar Venezuela</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Abstract Thoughts en Español</title>
 </head>
-<body>
-    <header>
-        <div class="img-fondo">
-            <h1>Amas la naturaleza?</h1>
-            <nav>
-                <ul>
-                <a href="#inicio">Inicio</a>
-                <a href="destinos.html" target="_blank">Destinos</a>
-                <a href="#experiencias" target="_blank">Experiencias</a>
-                <a href="">Contáctenos                    
-                    <div title ="+591 68688349">
-                        <img src="Imagenes/Imagen1.png" alt="Contactos">
-                    </div>
-                </a>
-                <a href="#Menuderecho">Sobre nosotros</a>
-                <img src="Imagenes/Imagen3.png" alt="">
-                </ul>
-                
 
-            </nav>
-            <h1 id="Presentacion">Welcome to</h1>
-            <h1>VENEZUELA</h1>
-            <h2>No te pierdas de disfrutar </h2>
-            <h3>Los diferentes destinos del pais. </h3>
+<body>
+    <!-- aqui va el logo y el menu -->
+    <header>
+        <div class="encabezado_fondo">
+            <div class="nombrepagina">
+                <p class="nombrepagina_primera">Abstract Thoughts</p>
+                <p class="nombrepagina_segunda">en Español</p>
+            </div>
+            <div class="iconos">
+                <div class="iconos_contactos" title="+591 68688349">
+                    <img class="icono" src="Imagenes/Imagen1.png" alt="Contactos">
+                </div>
+                <div class="iconos_autor"
+                    title="¡Hola! Mi nombre es Nayeli Zharit Ordoñez y tengo 19 años. Soy una estudiante universitaria.">
+                    <img class="icono" src="Imagenes/Imagen2.png" alt="Acerca del autor">
+                </div>
+                <div class="iconos_contenido">
+                    <img class="icono" src="Imagenes/Imagen3.png" alt="Contenido">
+                </div>
+            </div>
         </div>
+        <nav class="navegacion">
+            <hr>
+            <a class="barranav" href="">INICIO</a>
+            <a class="barranav" href="post.html" target="_self">POST</a>
+            <a class="barranav" href=""> TENDENCIA </a>
+            <hr>
+        </nav>
     </header>
     <aside>
-        <div id="Menuderecho">
-            <img src="Imagenes/Imagen3.png" alt="">
-            <h1>Sobre nosotros</h1>
-            <p>Somos una empresa lider en viajes alrededor del mundo, nuestro mejor destino es Venezuela.</p>
-            <h3>Empresas que confian en Nosotros:</h3>
-            <div class="imgtrivago">
-                <img src="" alt="">
+        <div class="contenido">
+            <h2 class="contenido_titulo">CONTENIDO</h2>
+            <h3 class="contenido_subtitulo">INICIO</h3>
+            <h4 class="contenido_vinetas">Recomendaciones</h4>
+            <h3 class="contenido_subtitulo">POST</h3>
+            <h4 class="contenido_vinetas">Destino <br>Nudo Gordiano <br>Hilo rojo</h4>
+            <h3 class="contenido_subtitulo">TENDENCIA</h3>
+            <div class="contenido_img_webtoon">
+                <h3>¿Donde leer Cómics? <br>¿Por qué?</h3>
+                <form action="https://www.webtoons.com/es/">
+                    <button>Ver</button>
+                </form>
             </div>
         </div>
     </aside>
-    <section id="inicio">
-        <div class="fondito">
-            <h1>TENDENCIAS</h1>
-        <article>
-           <div class="imgRana">
-            <a href="">Destino Turistico</a>
-           </div>
-          
-        </article>
-        <article>
-            <div class="imgrana2">
-                <a href="">Destino Turistico</a>
+    <section class="inicio">
+        <article class="inicio_destino">
+            <h2 class="inicio_notepierdas">NO TE PIERDAS...</h2>
+            <h3 class="inicio_descripcion">Historietas o Manhwas sobre el destino....Totalmente ilustradas</h3>
+            <div class="inicio_1parteimg">
+                <img class="imagen" src="Imagenes/Casate.jfif" alt="Casatecon">
+                <img class="imagen" src="Imagenes/Quizasfue.jfif" alt="Quizasfue">
             </div>
-
-        </article>
-        <article>
-            <div class="montana">
-                <a href="">Destino Turistico</a>
-            </div>
-        </article>
-        <article>
-            <div class="Politica">
-                <a href="">POLITICA ECONOMIA</a>
+            <div class="titulosdeprimerasimagenes">
+                <h3 class="inicio_descripcion">Cásate con mi esposo</h3>
+                <form action="Link ">
+                    <button>
+                        <h3 class="inicio_descripcion">Leer aquí</h3>
+                    </button>
+                </form>
+                <h3 class="inicio_descripcion">Quizás fue el destino</h3>
+                <form action="Link">
+                    <button>
+                        <h3 class="inicio_descripcion">Leer aquí</h3>
+                    </button>
+                </form>
             </div>
         </article>
-        </div>
-        <article> 
-            <div id="experiencias">
-                <h1>EXPERIENCIAS</h1>
-                <div class="fotoMargarita">
-                    <h1>Margarita</h1>
-                    <p>Me encanto Venezuela, excelente el vuelo</p>
-
-                </div>
-                <div class="fotoCarlosRueda">
-                    <h1>Carlos Rueda</h1>
-                    <p>Deberian integrar holeles y resturantes, por cierto, excelente el vuelo, buena atencion en el transporte!!!</p>
-    
-                </div>
+        <article class="inicio_amor">
+            <h3 class="inicio_descripcion">Historietas o Manhwas sobre el amor....Totalmente ilustradas</h3>
+            <div class="inicio_2parteimg">
+                <img class="imagen" src="Imagenes/true.jfif" alt="img-OTLove">
+                <img class="imagen" src="Imagenes/elixir.jpg" alt="elixir">
+                <img class="imagen" src="Imagenes/secretosbele.jfif" alt="img-secretosbelleza">
             </div>
-           
+            <div class="titulosdesegundasimagenes">
+                <h3 class="inicio_descripcion">Operación: Amor Puro</h3>
+                <form action="Link ">
+                    <button>
+                        <h3 class="inicio_descripcion">Leer aquí</h3>
+                    </button>
+                </form>
+                <h3 class="inicio_descripcion">El elixir del sol</h3>
+                <form action="Link ">
+                    <button>
+                        <h3 class="inicio_descripcion">Leer aquí</h3>
+                    </button>
+                </form>
+                <h3 class="inicio_descripcion">Secretos de belleza</h3>
+                <form action="Link ">
+                    <button>
+                        <h3 class="inicio_descripcion">Leer aquí</h3>
+                    </button>
+                </form>
+            </div>
         </article>
-        
+        <article class="inicio_supervivencia">
+            <h3 class="inicio_descripcion">Historietas o Manhwas sobre supervivencia....</h3>
+            <div class="inicio_3parteimg">
+                <img class="imagen" src="Imagenes/Aisha.jfif" alt="Aisha">
+                <img class="imagen" src="Imagenes/en busca.jpg" alt="img-Enbuscadeunfinalfeliz">
+                <img class="imagen" src="Imagenes/OIP.jpg" alt="img-siemprefuistetu">
+            </div>
+            <div class="titulosdetercerasimagenes">
+                <h3 class="inicio_descripcion">Aisha</h3>
+                <form action="Link ">
+                    <button>
+                        <h3 class="inicio_descripcion">Leer aquí</h3>
+                    </button>
+                </form>
+                <h3 class="inicio_descripcion">En busca de un final feliz</h3>
+                <form action="Link ">
+                    <button>
+                        <h3 class="inicio_descripcion">Leer aquí</h3>
+                    </button>
+                </form>
+                <h3 class="inicio_descripcion">Siempre fuiste tú</h3>
+                <form action="Link ">
+                    <button>
+                        <h3 class="inicio_descripcion">Leer aquí</h3>
+                    </button>
+                </form>
+            </div>
+        </article>
     </section>
     <footer>
-        <div class="fondo">
-            <p>Derechos de Autor <br>&copy;Nayeli Zharit Ordoñez Choque</p>
+        <div class="seccion_comentario">
+            <form action="#" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                    </li>
+                    <li>
+                        <label for="msg">Comentario:</label>
+                    </li>
+                    <li>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Enviar mensaje</button>
+                    </li>
+                </ul>
+            </form>
         </div>
-
-    </footer>  
+        <p>Derechos de Autor &copy;Nayeli Zharit Ordoñez Choque</p>
+    </footer>
 </body>
+
 </html>

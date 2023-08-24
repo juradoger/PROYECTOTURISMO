@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(/src/Imagen1.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.amaslanatu{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 64px;
+    color: yellowgreen;
+    margin-left: 1cm;
+    text-align: left;
+    padding-top: 1cm;
+    
+}
+.navegacion_link {
+    text-decoration: none;
+    color: aliceblue;   
+}
+.navegacion{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Francois One', sans-serif;
+    font-size:57px;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color:rgb(215, 215, 87);
+}
+.subtitulo{
+    line-height: 1cm;
+}
+.fondito{
+    display: flex;
+    flex-direction: row;
+}
+.imgRana{
+    background-image: url(/src/Imagen6.png);
+    width: 20cm;
+    height: 20cm;
+    padding: 0;
+    margin: 1cm;
+    background-repeat: no-repeat;
+}
+.imgrana2{
+    background-image: url(/src/Imagen7.png);
+    width: 20cm;
+    height: 30cm;
+    background-repeat: no-repeat;
+}
+.Primerasimg{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+
+}
+.Segundasimg{
+    position: absolute;
+}
+.montana{
+    background-image: url(/src/Imagen8.png);
+    background-position-y: 0;
+    width: 60cm;
+    height: 30cm;
+    margin-top: 15cm;
+    margin-left: 2cm;
+    background-repeat: no-repeat;  
+}
+.Politica{
+    background-image: url(/src/Imagen9.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;  
+    text-align: center;
+    margin-left: 3cm;
+    margin-top: 15cm;
+}
